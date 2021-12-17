@@ -494,8 +494,8 @@ local function WDLMX_fake_script() -- VisitsTower.LocalScript
 		game.workspace.Detectors.Visits["100"].CanCollide = false --100
 		game.workspace.Detectors.Visits["100"].Transparency = 1 
 	
-		game.workspace.Detectors.Visits["10000"].CanCollide = false --1k
-		game.workspace.Detectors.Visits["10000"].Transparency = 1
+		game.workspace.Detectors.Visits["1000"].CanCollide = false --1k
+		game.workspace.Detectors.Visits["1000"].Transparency = 1
 	
 		game.workspace.Detectors.Visits["50000"].CanCollide = false --5k
 		game.workspace.Detectors.Visits["50000"].Transparency = 1
