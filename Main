@@ -1,0 +1,872 @@
+--DEVELOPED BY THE VOID X TEAM
+--WORKS WITH LEVEL 6 - 7
+--V.1.0
+local nil_new11 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Towers = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local VisitsTower = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local GroupRoom = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local QATesterTower = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local FollowersTower = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local RAPTower = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local DevFourmTower = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local RobloxPremiumTower = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AccAgeTower = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local LocalPlayer = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local JumpPowerSlider = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local JumpPowerSlider_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local JumpPowerSlider_3 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local Topbar = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+
+--Properties:
+
+nil_new11.Name = "nil_new()(11"
+nil_new11.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+nil_new11.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+nil_new11.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = nil_new11
+Main.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Main.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Main.Position = UDim2.new(0.638329625, 0, 0.458932251, 0)
+Main.Size = UDim2.new(0, 327, 0, 327)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 36, 36))}
+UIGradient.Rotation = 30
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.10), NumberSequenceKeypoint.new(1.00, 0.10)}
+UIGradient.Parent = Main
+
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = Main
+
+Towers.Name = "Towers"
+Towers.Parent = Main
+Towers.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Towers.BackgroundTransparency = 1.000
+Towers.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Towers.Position = UDim2.new(-0.000814080238, 0, 0.111598819, 0)
+Towers.Size = UDim2.new(0, 327, 0, 290)
+Towers.Visible = false
+
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = Towers
+
+VisitsTower.Name = "VisitsTower"
+VisitsTower.Parent = Towers
+VisitsTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+VisitsTower.Position = UDim2.new(0.000813988736, 0, 0.151817381, 0)
+VisitsTower.Size = UDim2.new(0, 326, 0, 21)
+VisitsTower.Font = Enum.Font.ArialBold
+VisitsTower.Text = "Visits Tower"
+VisitsTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+VisitsTower.TextScaled = true
+VisitsTower.TextSize = 14.000
+VisitsTower.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = VisitsTower
+
+GroupRoom.Name = "GroupRoom"
+GroupRoom.Parent = Towers
+GroupRoom.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+GroupRoom.Position = UDim2.new(0.000813988736, 0, 0.872507036, 0)
+GroupRoom.Size = UDim2.new(0, 326, 0, 21)
+GroupRoom.Font = Enum.Font.ArialBold
+GroupRoom.Text = "Group Tower"
+GroupRoom.TextColor3 = Color3.fromRGB(255, 25, 94)
+GroupRoom.TextScaled = true
+GroupRoom.TextSize = 14.000
+GroupRoom.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = GroupRoom
+
+QATesterTower.Name = "QATesterTower"
+QATesterTower.Parent = Towers
+QATesterTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+QATesterTower.Position = UDim2.new(0.000813988736, 0, 0.634576201, 0)
+QATesterTower.Size = UDim2.new(0, 326, 0, 21)
+QATesterTower.Font = Enum.Font.ArialBold
+QATesterTower.Text = "QA Tester Tower"
+QATesterTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+QATesterTower.TextScaled = true
+QATesterTower.TextSize = 14.000
+QATesterTower.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = QATesterTower
+
+FollowersTower.Name = "FollowersTower"
+FollowersTower.Parent = Towers
+FollowersTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+FollowersTower.Position = UDim2.new(0.000813988736, 0, 0.389748394, 0)
+FollowersTower.Size = UDim2.new(0, 326, 0, 21)
+FollowersTower.Font = Enum.Font.ArialBold
+FollowersTower.Text = "Followers Tower"
+FollowersTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+FollowersTower.TextScaled = true
+FollowersTower.TextSize = 14.000
+FollowersTower.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = FollowersTower
+
+RAPTower.Name = "RAPTower"
+RAPTower.Parent = Towers
+RAPTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+RAPTower.Position = UDim2.new(0.000813988736, 0, 0.269058764, 0)
+RAPTower.Size = UDim2.new(0, 326, 0, 21)
+RAPTower.Font = Enum.Font.ArialBold
+RAPTower.Text = "RAP Tower"
+RAPTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+RAPTower.TextScaled = true
+RAPTower.TextSize = 14.000
+RAPTower.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = RAPTower
+
+DevFourmTower.Name = "DevFourmTower"
+DevFourmTower.Parent = Towers
+DevFourmTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+DevFourmTower.Position = UDim2.new(0.000813988736, 0, 0.513886333, 0)
+DevFourmTower.Size = UDim2.new(0, 326, 0, 21)
+DevFourmTower.Font = Enum.Font.ArialBold
+DevFourmTower.Text = "DevForum Tower"
+DevFourmTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+DevFourmTower.TextScaled = true
+DevFourmTower.TextSize = 14.000
+DevFourmTower.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = DevFourmTower
+
+RobloxPremiumTower.Name = "RobloxPremiumTower"
+RobloxPremiumTower.Parent = Towers
+RobloxPremiumTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+RobloxPremiumTower.Position = UDim2.new(0.000813988736, 0, 0.758714139, 0)
+RobloxPremiumTower.Size = UDim2.new(0, 326, 0, 21)
+RobloxPremiumTower.Font = Enum.Font.ArialBold
+RobloxPremiumTower.Text = "Roblox Premium Tower"
+RobloxPremiumTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+RobloxPremiumTower.TextScaled = true
+RobloxPremiumTower.TextSize = 14.000
+RobloxPremiumTower.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = RobloxPremiumTower
+
+AccAgeTower.Name = "AccAgeTower"
+AccAgeTower.Parent = Towers
+AccAgeTower.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+AccAgeTower.Position = UDim2.new(0.000813988736, 0, 0.0345759951, 0)
+AccAgeTower.Size = UDim2.new(0, 326, 0, 21)
+AccAgeTower.Font = Enum.Font.ArialBold
+AccAgeTower.Text = "Account Age Tower"
+AccAgeTower.TextColor3 = Color3.fromRGB(255, 25, 94)
+AccAgeTower.TextScaled = true
+AccAgeTower.TextSize = 14.000
+AccAgeTower.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = AccAgeTower
+
+LocalPlayer.Name = "LocalPlayer"
+LocalPlayer.Parent = Main
+LocalPlayer.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+LocalPlayer.BackgroundTransparency = 1.000
+LocalPlayer.BorderColor3 = Color3.fromRGB(52, 52, 52)
+LocalPlayer.Position = UDim2.new(-0.000814080238, 0, 0.111598819, 0)
+LocalPlayer.Size = UDim2.new(0, 327, 0, 290)
+LocalPlayer.Visible = false
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = LocalPlayer
+
+JumpPowerSlider.Name = "Jump Power Slider"
+JumpPowerSlider.Parent = LocalPlayer
+JumpPowerSlider.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider.BorderColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider.BorderSizePixel = 4
+JumpPowerSlider.Position = UDim2.new(0.435035437, 0, 0.0741168857, 0)
+JumpPowerSlider.Size = UDim2.new(0, 179, 0, 7)
+
+TextButton.Parent = JumpPowerSlider
+TextButton.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 25, 94)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 4
+TextButton.Position = UDim2.new(0.0160000008, 0, 0.136999995, 0)
+TextButton.Size = UDim2.new(0, 8, 0, 26)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = TextButton
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = JumpPowerSlider
+
+TextLabel.Parent = LocalPlayer
+TextLabel.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel.BackgroundTransparency = 0.300
+TextLabel.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel.Position = UDim2.new(0.0244648308, 0, 0.0325961411, 0)
+TextLabel.Size = UDim2.new(0, 115, 0, 26)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "Jump Power"
+TextLabel.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = TextLabel
+
+TextLabel_2.Parent = LocalPlayer
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_2.BackgroundTransparency = 0.300
+TextLabel_2.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_2.Position = UDim2.new(0.0214067269, 0, 0.256734073, 0)
+TextLabel_2.Size = UDim2.new(0, 115, 0, 26)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "Walkspeed"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = TextLabel_2
+
+JumpPowerSlider_2.Name = "Jump Power Slider"
+JumpPowerSlider_2.Parent = LocalPlayer
+JumpPowerSlider_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider_2.BorderSizePixel = 4
+JumpPowerSlider_2.Position = UDim2.new(0.431977332, 0, 0.298254788, 0)
+JumpPowerSlider_2.Size = UDim2.new(0, 179, 0, 7)
+
+TextButton_2.Parent = JumpPowerSlider_2
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderSizePixel = 4
+TextButton_2.Position = UDim2.new(0.0160000008, 0, 0.136999995, 0)
+TextButton_2.Size = UDim2.new(0, 8, 0, 26)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = TextButton_2
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = JumpPowerSlider_2
+
+TextLabel_3.Parent = LocalPlayer
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_3.Position = UDim2.new(0.0214067269, 0, 0.149837524, 0)
+TextLabel_3.Size = UDim2.new(0, 115, 0, 25)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "nil"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = TextLabel_3
+
+TextLabel_4.Parent = LocalPlayer
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_4.Position = UDim2.new(0.0244648308, 0, 0.377423704, 0)
+TextLabel_4.Size = UDim2.new(0, 115, 0, 25)
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "nil"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = TextLabel_4
+
+TextLabel_5.Parent = LocalPlayer
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_5.Position = UDim2.new(0.0275229346, 0, 0.62569958, 0)
+TextLabel_5.Size = UDim2.new(0, 115, 0, 25)
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "nil"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = TextLabel_5
+
+TextLabel_6.Parent = LocalPlayer
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_6.BackgroundTransparency = 0.300
+TextLabel_6.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_6.Position = UDim2.new(0.0244648308, 0, 0.505009949, 0)
+TextLabel_6.Size = UDim2.new(0, 115, 0, 26)
+TextLabel_6.Font = Enum.Font.ArialBold
+TextLabel_6.Text = "Hip Height"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = TextLabel_6
+
+JumpPowerSlider_3.Name = "Jump Power Slider"
+JumpPowerSlider_3.Parent = LocalPlayer
+JumpPowerSlider_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider_3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+JumpPowerSlider_3.BorderSizePixel = 4
+JumpPowerSlider_3.Position = UDim2.new(0.435035437, 0, 0.546530664, 0)
+JumpPowerSlider_3.Size = UDim2.new(0, 179, 0, 7)
+
+TextButton_3.Parent = JumpPowerSlider_3
+TextButton_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BorderSizePixel = 4
+TextButton_3.Position = UDim2.new(0.0160000008, 0, 0.136999995, 0)
+TextButton_3.Size = UDim2.new(0, 8, 0, 26)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = TextButton_3
+
+UICorner_23.CornerRadius = UDim.new(0, 10)
+UICorner_23.Parent = JumpPowerSlider_3
+
+Topbar.Name = "Topbar"
+Topbar.Parent = Main
+Topbar.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Topbar.BackgroundTransparency = 0.250
+Topbar.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Topbar.Position = UDim2.new(0, 0, -0.00284140115, 0)
+Topbar.Size = UDim2.new(0, 327, 0, 37)
+
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = Topbar
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(18, 18, 18))}
+UIGradient_2.Rotation = 30
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.10), NumberSequenceKeypoint.new(1.00, 0.10)}
+UIGradient_2.Parent = Topbar
+
+TextButton_4.Parent = Topbar
+TextButton_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.235474005, 0, 0.162162155, 0)
+TextButton_4.Size = UDim2.new(0, 59, 0, 24)
+TextButton_4.Font = Enum.Font.ArialBold
+TextButton_4.Text = "Towers"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = TextButton_4
+
+TextButton_5.Parent = Topbar
+TextButton_5.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.446483195, 0, 0.162162155, 0)
+TextButton_5.Size = UDim2.new(0, 104, 0, 24)
+TextButton_5.Font = Enum.Font.ArialBold
+TextButton_5.Text = "Local Player"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = TextButton_5
+
+TextLabel_7.Parent = Topbar
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_7.Position = UDim2.new(0.0244648326, 0, 0.162162155, 0)
+TextLabel_7.Size = UDim2.new(0, 53, 0, 23)
+TextLabel_7.Font = Enum.Font.ArialBold
+TextLabel_7.Text = "Void X"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = TextLabel_7
+
+TextButton_6.Parent = Topbar
+TextButton_6.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.Position = UDim2.new(0.938837945, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 20, 0, 23)
+TextButton_6.Font = Enum.Font.ArialBold
+TextButton_6.Text = "X"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = TextButton_6
+
+-- Scripts:
+
+local function NYQFHY_fake_script() -- Main.Drag 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(NYQFHY_fake_script)()
+local function WDLMX_fake_script() -- VisitsTower.LocalScript 
+	local script = Instance.new('LocalScript', VisitsTower)
+
+	function Click()
+		game.workspace.Detectors.Visits["100"].CanCollide = false --100
+		game.workspace.Detectors.Visits["100"].Transparency = 1 
+	
+		game.workspace.Detectors.Visits["10000"].CanCollide = false --1k
+		game.workspace.Detectors.Visits["10000"].Transparency = 1
+	
+		game.workspace.Detectors.Visits["50000"].CanCollide = false --5k
+		game.workspace.Detectors.Visits["50000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["100000"].CanCollide = false --10k
+		game.workspace.Detectors.Visits["100000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["250000"].CanCollide = false --25k
+		game.workspace.Detectors.Visits["250000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["500000"].CanCollide = false --50k
+		game.workspace.Detectors.Visits["500000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["1000000"].CanCollide = false --100k
+		game.workspace.Detectors.Visits["1000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["1000000"].CanCollide = false --1m
+		game.workspace.Detectors.Visits["1000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["5000000"].CanCollide = false --5m
+		game.workspace.Detectors.Visits["5000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["10000000"].CanCollide = false --10m
+		game.workspace.Detectors.Visits["10000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["50000000"].CanCollide = false --50m
+		game.workspace.Detectors.Visits["50000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["100000000"].CanCollide = false --100m
+		game.workspace.Detectors.Visits["100000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["250000000"].CanCollide = false --250m
+		game.workspace.Detectors.Visits["250000000"].Transparency = 1
+		
+		game.workspace.Detectors.Visits["100000000"]:Destroy() --500m
+		
+		game.workspace.Detectors.Visits["1000000000"].CanCollide = false --1b
+		game.workspace.Detectors.Visits["1000000000"].Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(WDLMX_fake_script)()
+local function DTCCBNP_fake_script() -- GroupRoom.LocalScript 
+	local script = Instance.new('LocalScript', GroupRoom)
+
+	function Click()
+		game.workspace.Detectors.GroupRoom.CanCollide = false
+		game.workspace.Detectors.GroupRoom.Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(DTCCBNP_fake_script)()
+local function DILR_fake_script() -- QATesterTower.LocalScript 
+	local script = Instance.new('LocalScript', QATesterTower)
+
+	function Click()
+	game.workspace.Detectors.QA.CanCollide = false
+	game.workspace.Detectors.QA.Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(DILR_fake_script)()
+local function FIXGNZU_fake_script() -- FollowersTower.LocalScript 
+	local script = Instance.new('LocalScript', FollowersTower)
+
+	function Click()
+		game.workspace.Detectors.Followers["100"].CanCollide = false --100
+		game.workspace.Detectors.Followers["100"].Transparency = 1
+	
+		game.workspace.Detectors.Followers["1000"].CanCollide = false --1000
+		game.workspace.Detectors.Followers["1000"].Transparency = 1
+	
+		game.workspace.Detectors.Followers["10000"].CanCollide = false --10k
+		game.workspace.Detectors.Followers["10000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["50000"].CanCollide = false --50k
+		game.workspace.Detectors.Followers["50000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["100000"].CanCollide = false --100k
+		game.workspace.Detectors.Followers["100000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["250000"].CanCollide = false --250k
+		game.workspace.Detectors.Followers["250000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["500000"].CanCollide = false --500k
+		game.workspace.Detectors.Followers["500000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["1000000"].CanCollide = false --1m
+		game.workspace.Detectors.Followers["1000000"].Transparency = 1
+		
+		game.workspace.Detectors.Followers["2000000"].CanCollide = false --2m
+		game.workspace.Detectors.Followers["2000000"].Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(FIXGNZU_fake_script)()
+local function VVSXKCX_fake_script() -- RAPTower.LocalScript 
+	local script = Instance.new('LocalScript', RAPTower)
+
+	function Click()
+		game.workspace.Detectors.RAP["100"].CanCollide = false
+		game.workspace.Detectors.RAP["100"].Transparency = 1
+	
+		game.workspace.Detectors.RAP["1000"].CanCollide = false
+		game.workspace.Detectors.RAP["1000"].Transparency = 1
+	
+		game.workspace.Detectors.RAP["10000"].CanCollide = false
+		game.workspace.Detectors.RAP["10000"].Transparency = 1
+	
+		game.workspace.Detectors.RAP["50000"].CanCollide = false
+		game.workspace.Detectors.RAP["50000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["100000"].CanCollide = false
+		game.workspace.Detectors.RAP["100000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["250000"].CanCollide = false
+		game.workspace.Detectors.RAP["250000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["500000"].CanCollide = false
+		game.workspace.Detectors.RAP["500000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["500000"].CanCollide = false
+		game.workspace.Detectors.RAP["500000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["1000000"].CanCollide = false
+		game.workspace.Detectors.RAP["1000000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["1000000"].CanCollide = false
+		game.workspace.Detectors.RAP["1000000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["5000000"].CanCollide = false
+		game.workspace.Detectors.RAP["5000000"].Transparency = 1
+		
+		game.workspace.Detectors.RAP["10000000"].CanCollide = false
+		game.workspace.Detectors.RAP["10000000"].Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(VVSXKCX_fake_script)()
+local function QFEOTKN_fake_script() -- DevFourmTower.LocalScript 
+	local script = Instance.new('LocalScript', DevFourmTower)
+
+	function Click()
+	game.workspace.Detectors.DevForumNew.CanCollide = false
+	game.workspace.Detectors.DevForumNew.Transparency = 1
+	
+	game.workspace.Detectors.DevForumFull.CanCollide = false
+	game.workspace.Detectors.DevForumFull.Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(QFEOTKN_fake_script)()
+local function SSCFLD_fake_script() -- RobloxPremiumTower.LocalScript 
+	local script = Instance.new('LocalScript', RobloxPremiumTower)
+
+	function Click()
+		game.workspace.Detectors.RobloxPremium.CanCollide = false
+		game.workspace.Detectors.RobloxPremium.Transparency = 1
+		game.workspace.Detectors.RobloxPremium.Disabled = true
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(SSCFLD_fake_script)()
+local function DNHG_fake_script() -- AccAgeTower.LocalScript 
+	local script = Instance.new('LocalScript', AccAgeTower)
+
+	function Click()
+		game.workspace.Detectors.Age["2020"].CanCollide = false
+		game.workspace.Detectors.Age["2020"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2018"].CanCollide = false
+		game.workspace.Detectors.Age["2018"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2016"].CanCollide = false
+		game.workspace.Detectors.Age["2016"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2014"].CanCollide = false
+		game.workspace.Detectors.Age["2014"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2012"].CanCollide = false
+		game.workspace.Detectors.Age["2012"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2010"].CanCollide = false
+		game.workspace.Detectors.Age["2010"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2008"].CanCollide = false
+		game.workspace.Detectors.Age["2008"].Transparency = 1
+	
+		game.workspace.Detectors.Age["2006"].CanCollide = false
+		game.workspace.Detectors.Age["2006"].Transparency = 1
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(DNHG_fake_script)()
+local function FVQM_fake_script() -- JumpPowerSlider.LocalScript 
+	local script = Instance.new('LocalScript', JumpPowerSlider)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = Precent*1000
+			local StarterGui = game:GetService("StarterGui")
+			repeat
+				wait()
+				local Success = pcall(function()
+					print"true"
+				end)
+			until Success
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(FVQM_fake_script)()
+local function BVEFJ_fake_script() -- JumpPowerSlider_2.LocalScript 
+	local script = Instance.new('LocalScript', JumpPowerSlider_2)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Precent*1000
+			local StarterGui = game:GetService("StarterGui")
+			repeat
+				wait()
+				local Success = pcall(function()
+					print"true"
+				end)
+			until Success
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(BVEFJ_fake_script)()
+local function MJWND_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	while true do
+		if game.Players.LocalPlayer.Character.Humanoid.JumpPower == 0 then
+			script.Parent.Text = "No Jump Power (0)"
+		end
+		if game.Players.LocalPlayer.Character.Humanoid.JumpPower == 1000 then
+			script.Parent.Text = "Max Jump Power (1000)"
+		end
+		script.Parent.Text = "Jump Power : "..game.Players.LocalPlayer.Character.Humanoid.JumpPower
+		task.wait()
+	end
+end
+coroutine.wrap(MJWND_fake_script)()
+local function BZYVNS_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	while true do
+		script.Parent.Text = "Walkspeed : "..game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
+		task.wait()
+	end
+end
+coroutine.wrap(BZYVNS_fake_script)()
+local function BHRWD_fake_script() -- TextLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	while true do
+		script.Parent.Text = "Hip Height : "..game.Players.LocalPlayer.Character.Humanoid.HipHeight
+		task.wait()
+	end
+end
+coroutine.wrap(BHRWD_fake_script)()
+local function BWNUCN_fake_script() -- JumpPowerSlider_3.LocalScript 
+	local script = Instance.new('LocalScript', JumpPowerSlider_3)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.HipHeight = Precent*500
+			local StarterGui = game:GetService("StarterGui")
+			repeat
+				wait()
+				local Success = pcall(function()
+					print"true"
+				end)
+			until Success
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(BWNUCN_fake_script)()
+local function WYIF_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	function Press()
+		if script.Parent.Parent.Parent.LocalPlayer.Visible == true then
+			script.Parent.Parent.Parent.LocalPlayer.Visible = false
+		end
+		script.Parent.Parent.Parent.Towers.Visible = true
+	end
+	script.Parent.MouseButton1Down:Connect(Press)
+	
+end
+coroutine.wrap(WYIF_fake_script)()
+local function UFTXHXE_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	function Press()
+		if script.Parent.Parent.Parent.Towers.Visible == true then
+			script.Parent.Parent.Parent.Towers.Visible = false
+		end
+		script.Parent.Parent.Parent.LocalPlayer.Visible = true
+	end
+	script.Parent.MouseButton1Down:Connect(Press)
+end
+coroutine.wrap(UFTXHXE_fake_script)()
+local function FUWMBXK_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	function Press()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+	end
+	script.Parent.MouseButton1Down:Connect(Press)
+end
+coroutine.wrap(FUWMBXK_fake_script)()
+local function SQME_fake_script() -- nil_new11.LocalScript 
+	local script = Instance.new('LocalScript', nil_new11)
+
+	script.Parent.Name = math.random(1,999999)
+end
+coroutine.wrap(SQME_fake_script)()
