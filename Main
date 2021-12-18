@@ -1,6 +1,7 @@
 --DEVELOPED BY THE VOID X TEAM
 --WORKS WITH LEVEL 6 - 7
---V.1.0
+--CHANGELOG : ADDED MISC WITH SOME OTHER FEATURES
+--V.1.1
 local nil_new11 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
@@ -60,6 +61,16 @@ local TextLabel_7 = Instance.new("TextLabel")
 local UICorner_27 = Instance.new("UICorner")
 local TextButton_6 = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Misc = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local ForceDropAllHats = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local InstantWinTEAPOTS = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local InstantWinTEAPOTS_2 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
 
 --Properties:
 
@@ -420,7 +431,7 @@ UIGradient_2.Parent = Topbar
 TextButton_4.Parent = Topbar
 TextButton_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 TextButton_4.BackgroundTransparency = 1.000
-TextButton_4.Position = UDim2.new(0.235474005, 0, 0.162162155, 0)
+TextButton_4.Position = UDim2.new(0.220183492, 0, 0.162162155, 0)
 TextButton_4.Size = UDim2.new(0, 59, 0, 24)
 TextButton_4.Font = Enum.Font.ArialBold
 TextButton_4.Text = "Towers"
@@ -435,7 +446,7 @@ UICorner_25.Parent = TextButton_4
 TextButton_5.Parent = Topbar
 TextButton_5.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 TextButton_5.BackgroundTransparency = 1.000
-TextButton_5.Position = UDim2.new(0.446483195, 0, 0.162162155, 0)
+TextButton_5.Position = UDim2.new(0.425076455, 0, 0.162162155, 0)
 TextButton_5.Size = UDim2.new(0, 104, 0, 24)
 TextButton_5.Font = Enum.Font.ArialBold
 TextButton_5.Text = "Local Player"
@@ -478,36 +489,108 @@ TextButton_6.TextWrapped = true
 UICorner_28.CornerRadius = UDim.new(0, 3)
 UICorner_28.Parent = TextButton_6
 
+TextButton_7.Parent = Topbar
+TextButton_7.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0.761467874, 0, 0.162162155, 0)
+TextButton_7.Size = UDim2.new(0, 40, 0, 23)
+TextButton_7.Font = Enum.Font.ArialBold
+TextButton_7.Text = "Misc"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 25, 94)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = TextButton_7
+
+Misc.Name = "Misc"
+Misc.Parent = Main
+Misc.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Misc.BackgroundTransparency = 1.000
+Misc.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Misc.Position = UDim2.new(-0.000814080238, 0, 0.111598819, 0)
+Misc.Size = UDim2.new(0, 327, 0, 290)
+Misc.Visible = false
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = Misc
+
+ForceDropAllHats.Name = "ForceDropAllHats"
+ForceDropAllHats.Parent = Misc
+ForceDropAllHats.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ForceDropAllHats.Position = UDim2.new(0.000813988736, 0, 0.0345759951, 0)
+ForceDropAllHats.Size = UDim2.new(0, 327, 0, 21)
+ForceDropAllHats.Font = Enum.Font.ArialBold
+ForceDropAllHats.Text = "Force Drop All Hats"
+ForceDropAllHats.TextColor3 = Color3.fromRGB(255, 25, 94)
+ForceDropAllHats.TextScaled = true
+ForceDropAllHats.TextSize = 14.000
+ForceDropAllHats.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = ForceDropAllHats
+
+InstantWinTEAPOTS.Name = "InstantWin(TEAPOTS)"
+InstantWinTEAPOTS.Parent = Misc
+InstantWinTEAPOTS.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+InstantWinTEAPOTS.Position = UDim2.new(0.000813988736, 0, 0.169058755, 0)
+InstantWinTEAPOTS.Size = UDim2.new(0, 327, 0, 21)
+InstantWinTEAPOTS.Font = Enum.Font.ArialBold
+InstantWinTEAPOTS.Text = "Instant Win (Tea Pots)"
+InstantWinTEAPOTS.TextColor3 = Color3.fromRGB(255, 25, 94)
+InstantWinTEAPOTS.TextScaled = true
+InstantWinTEAPOTS.TextSize = 14.000
+InstantWinTEAPOTS.TextWrapped = true
+
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = InstantWinTEAPOTS
+
+InstantWinTEAPOTS_2.Name = "InstantWin(TEAPOTS)"
+InstantWinTEAPOTS_2.Parent = Misc
+InstantWinTEAPOTS_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+InstantWinTEAPOTS_2.Position = UDim2.new(0.000813988736, 0, 0.313886344, 0)
+InstantWinTEAPOTS_2.Size = UDim2.new(0, 327, 0, 21)
+InstantWinTEAPOTS_2.Font = Enum.Font.ArialBold
+InstantWinTEAPOTS_2.Text = "Loop Win (Tea Pots)"
+InstantWinTEAPOTS_2.TextColor3 = Color3.fromRGB(255, 25, 94)
+InstantWinTEAPOTS_2.TextScaled = true
+InstantWinTEAPOTS_2.TextSize = 14.000
+InstantWinTEAPOTS_2.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = InstantWinTEAPOTS_2
+
 -- Scripts:
 
-local function NYQFHY_fake_script() -- Main.Drag 
+local function QFIYD_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.Draggable = true
 	script.Parent.Active = true
 end
-coroutine.wrap(NYQFHY_fake_script)()
-local function WDLMX_fake_script() -- VisitsTower.LocalScript 
+coroutine.wrap(QFIYD_fake_script)()
+local function PUGRDG_fake_script() -- VisitsTower.LocalScript 
 	local script = Instance.new('LocalScript', VisitsTower)
 
 	function Click()
 		game.workspace.Detectors.Visits["100"].CanCollide = false --100
 		game.workspace.Detectors.Visits["100"].Transparency = 1 
 	
-		game.workspace.Detectors.Visits["1000"].CanCollide = false --1k
-		game.workspace.Detectors.Visits["1000"].Transparency = 1
+		game.workspace.Detectors.Visits["10000"].CanCollide = false --1k
+		game.workspace.Detectors.Visits["10000"].Transparency = 1
 	
 		game.workspace.Detectors.Visits["50000"].CanCollide = false --5k
 		game.workspace.Detectors.Visits["50000"].Transparency = 1
 		
-		game.workspace.Detectors.Visits["10000"].CanCollide = false --10k
-		game.workspace.Detectors.Visits["10000"].Transparency = 1
+		game.workspace.Detectors.Visits["100000"].CanCollide = false --10k
+		game.workspace.Detectors.Visits["100000"].Transparency = 1
 		
-		game.workspace.Detectors.Visits["25000"].CanCollide = false --25k
-		game.workspace.Detectors.Visits["25000"].Transparency = 1
+		game.workspace.Detectors.Visits["250000"].CanCollide = false --25k
+		game.workspace.Detectors.Visits["250000"].Transparency = 1
 		
-		game.workspace.Detectors.Visits["50000"].CanCollide = false --50k
-		game.workspace.Detectors.Visits["50000"].Transparency = 1
+		game.workspace.Detectors.Visits["500000"].CanCollide = false --50k
+		game.workspace.Detectors.Visits["500000"].Transparency = 1
 		
 		game.workspace.Detectors.Visits["1000000"].CanCollide = false --100k
 		game.workspace.Detectors.Visits["1000000"].Transparency = 1
@@ -538,8 +621,8 @@ local function WDLMX_fake_script() -- VisitsTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(WDLMX_fake_script)()
-local function DTCCBNP_fake_script() -- GroupRoom.LocalScript 
+coroutine.wrap(PUGRDG_fake_script)()
+local function LJUHF_fake_script() -- GroupRoom.LocalScript 
 	local script = Instance.new('LocalScript', GroupRoom)
 
 	function Click()
@@ -549,8 +632,8 @@ local function DTCCBNP_fake_script() -- GroupRoom.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(DTCCBNP_fake_script)()
-local function DILR_fake_script() -- QATesterTower.LocalScript 
+coroutine.wrap(LJUHF_fake_script)()
+local function XDWHDIG_fake_script() -- QATesterTower.LocalScript 
 	local script = Instance.new('LocalScript', QATesterTower)
 
 	function Click()
@@ -560,8 +643,8 @@ local function DILR_fake_script() -- QATesterTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(DILR_fake_script)()
-local function FIXGNZU_fake_script() -- FollowersTower.LocalScript 
+coroutine.wrap(XDWHDIG_fake_script)()
+local function BPEG_fake_script() -- FollowersTower.LocalScript 
 	local script = Instance.new('LocalScript', FollowersTower)
 
 	function Click()
@@ -595,8 +678,8 @@ local function FIXGNZU_fake_script() -- FollowersTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(FIXGNZU_fake_script)()
-local function VVSXKCX_fake_script() -- RAPTower.LocalScript 
+coroutine.wrap(BPEG_fake_script)()
+local function LKMIBMX_fake_script() -- RAPTower.LocalScript 
 	local script = Instance.new('LocalScript', RAPTower)
 
 	function Click()
@@ -639,8 +722,8 @@ local function VVSXKCX_fake_script() -- RAPTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(VVSXKCX_fake_script)()
-local function QFEOTKN_fake_script() -- DevFourmTower.LocalScript 
+coroutine.wrap(LKMIBMX_fake_script)()
+local function VDSWBUE_fake_script() -- DevFourmTower.LocalScript 
 	local script = Instance.new('LocalScript', DevFourmTower)
 
 	function Click()
@@ -653,8 +736,8 @@ local function QFEOTKN_fake_script() -- DevFourmTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(QFEOTKN_fake_script)()
-local function SSCFLD_fake_script() -- RobloxPremiumTower.LocalScript 
+coroutine.wrap(VDSWBUE_fake_script)()
+local function ULGFI_fake_script() -- RobloxPremiumTower.LocalScript 
 	local script = Instance.new('LocalScript', RobloxPremiumTower)
 
 	function Click()
@@ -665,8 +748,8 @@ local function SSCFLD_fake_script() -- RobloxPremiumTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(SSCFLD_fake_script)()
-local function DNHG_fake_script() -- AccAgeTower.LocalScript 
+coroutine.wrap(ULGFI_fake_script)()
+local function QUKKP_fake_script() -- AccAgeTower.LocalScript 
 	local script = Instance.new('LocalScript', AccAgeTower)
 
 	function Click()
@@ -697,8 +780,8 @@ local function DNHG_fake_script() -- AccAgeTower.LocalScript
 	
 	script.Parent.MouseButton1Down:Connect(Click)
 end
-coroutine.wrap(DNHG_fake_script)()
-local function FVQM_fake_script() -- JumpPowerSlider.LocalScript 
+coroutine.wrap(QUKKP_fake_script)()
+local function GXOQ_fake_script() -- JumpPowerSlider.LocalScript 
 	local script = Instance.new('LocalScript', JumpPowerSlider)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -730,8 +813,8 @@ local function FVQM_fake_script() -- JumpPowerSlider.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FVQM_fake_script)()
-local function BVEFJ_fake_script() -- JumpPowerSlider_2.LocalScript 
+coroutine.wrap(GXOQ_fake_script)()
+local function LFSG_fake_script() -- JumpPowerSlider_2.LocalScript 
 	local script = Instance.new('LocalScript', JumpPowerSlider_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -763,8 +846,8 @@ local function BVEFJ_fake_script() -- JumpPowerSlider_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BVEFJ_fake_script)()
-local function MJWND_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(LFSG_fake_script)()
+local function NRZXIXI_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	while true do
@@ -778,8 +861,8 @@ local function MJWND_fake_script() -- TextLabel_3.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(MJWND_fake_script)()
-local function BZYVNS_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(NRZXIXI_fake_script)()
+local function CNUWV_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	while true do
@@ -787,8 +870,8 @@ local function BZYVNS_fake_script() -- TextLabel_4.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(BZYVNS_fake_script)()
-local function BHRWD_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(CNUWV_fake_script)()
+local function EOWCI_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	while true do
@@ -796,8 +879,8 @@ local function BHRWD_fake_script() -- TextLabel_5.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(BHRWD_fake_script)()
-local function BWNUCN_fake_script() -- JumpPowerSlider_3.LocalScript 
+coroutine.wrap(EOWCI_fake_script)()
+local function HIMFNA_fake_script() -- JumpPowerSlider_3.LocalScript 
 	local script = Instance.new('LocalScript', JumpPowerSlider_3)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -829,33 +912,39 @@ local function BWNUCN_fake_script() -- JumpPowerSlider_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BWNUCN_fake_script)()
-local function WYIF_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(HIMFNA_fake_script)()
+local function OVPPAVQ_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	function Press()
 		if script.Parent.Parent.Parent.LocalPlayer.Visible == true then
 			script.Parent.Parent.Parent.LocalPlayer.Visible = false
 		end
+		if script.Parent.Parent.Parent.Misc.Visible == true then
+			script.Parent.Parent.Parent.Misc.Visible = false
+		end
 		script.Parent.Parent.Parent.Towers.Visible = true
 	end
 	script.Parent.MouseButton1Down:Connect(Press)
 	
 end
-coroutine.wrap(WYIF_fake_script)()
-local function UFTXHXE_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(OVPPAVQ_fake_script)()
+local function NUWMI_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	function Press()
 		if script.Parent.Parent.Parent.Towers.Visible == true then
 			script.Parent.Parent.Parent.Towers.Visible = false
 		end
+		if script.Parent.Parent.Parent.Misc.Visible == true then
+			script.Parent.Parent.Parent.Misc.Visible = false
+		end
 		script.Parent.Parent.Parent.LocalPlayer.Visible = true
 	end
 	script.Parent.MouseButton1Down:Connect(Press)
 end
-coroutine.wrap(UFTXHXE_fake_script)()
-local function FUWMBXK_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(NUWMI_fake_script)()
+local function LJMPA_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	function Press()
@@ -863,10 +952,58 @@ local function FUWMBXK_fake_script() -- TextButton_6.LocalScript
 	end
 	script.Parent.MouseButton1Down:Connect(Press)
 end
-coroutine.wrap(FUWMBXK_fake_script)()
-local function SQME_fake_script() -- nil_new11.LocalScript 
+coroutine.wrap(LJMPA_fake_script)()
+local function QKYZX_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	function Press()
+		if script.Parent.Parent.Parent.Towers.Visible == true then
+			script.Parent.Parent.Parent.Towers.Visible = false
+		end
+		if script.Parent.Parent.Parent.LocalPlayer.Visible == true then
+			script.Parent.Parent.Parent.LocalPlayer.Visible = false
+		end
+		script.Parent.Parent.Parent.Misc.Visible = true
+	end
+	script.Parent.MouseButton1Down:Connect(Press)
+end
+coroutine.wrap(QKYZX_fake_script)()
+local function LTDFQ_fake_script() -- ForceDropAllHats.LocalScript 
+	local script = Instance.new('LocalScript', ForceDropAllHats)
+
+	function Click()
+		game.ReplicatedStorage.Events.Server.DropHats:FireServer()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(LTDFQ_fake_script)()
+local function NTJIRS_fake_script() -- InstantWinTEAPOTS.LocalScript 
+	local script = Instance.new('LocalScript', InstantWinTEAPOTS)
+
+	function Click()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Teapots.Finish.CFrame
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(NTJIRS_fake_script)()
+local function PPPX_fake_script() -- InstantWinTEAPOTS_2.LocalScript 
+	local script = Instance.new('LocalScript', InstantWinTEAPOTS_2)
+
+	function Click()
+		while true do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Teapots.Finish.CFrame
+			task.wait()
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(Click)
+end
+coroutine.wrap(PPPX_fake_script)()
+local function EIHGA_fake_script() -- nil_new11.LocalScript 
 	local script = Instance.new('LocalScript', nil_new11)
 
 	script.Parent.Name = math.random(1,999999)
 end
-coroutine.wrap(SQME_fake_script)()
+coroutine.wrap(EIHGA_fake_script)()
